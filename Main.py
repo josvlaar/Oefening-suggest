@@ -77,4 +77,3 @@ with open('Opgaven.csv', 'r', newline='') as inputfile:
             writer.writerow(strings[index])
         for row in endresult:
             writer.writerow(row)
-
